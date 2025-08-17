@@ -1,0 +1,50 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(205, 195, 195); /* 🌟 silverbackground */
+  color: silver;             
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #8394c3; /* Deep blue */
+  color: rgb(157, 157, 219);
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #555;
+}
+
+/* Info boxes */
+.info-box {
+  background-color:white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Button */
+.learn-button {
+  background-color: black;
+  color: blue;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #ddd;
+  border-top: 1px solid #aaa;
+}
